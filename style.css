@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.main {
+  background-image: url("./pexels-pixabay-164716.jpg");
+  background-size: cover;
+  height: 100vh;
+  padding: 13px;
+}
+
+.content {
+  margin: auto;
+  width: 1320px;
+}
+
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 40px;
+  color: white;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover {
+  color: yellow;
+}
+
+.link-button {
+  color: white;
+  text-decoration: none;
+  border: 2px solid yellow;
+  padding: 10px 26px;
+  border-radius: 4px;
+}
